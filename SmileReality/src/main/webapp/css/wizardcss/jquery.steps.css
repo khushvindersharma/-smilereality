@@ -1,4 +1,4 @@
-﻿/*
+/*
     Common 
 */
 
@@ -63,7 +63,7 @@
 {
     display: inline;
     float: left;
-    width: 30%;
+    width: 20%;
 }
 
 .wizard > .steps .number
@@ -107,8 +107,8 @@
 .wizard > .steps .disabled a:hover,
 .wizard > .steps .disabled a:active
 {
-    background: #eee;
-    color: #aaa;
+    background: #389AC2;
+      color: #fff;
     cursor: default;
 }
 
@@ -116,7 +116,7 @@
 .wizard > .steps .current a:hover,
 .wizard > .steps .current a:active
 {
-    background: #8DB55F;
+    background: #389AC2;
     color: #fff;
     cursor: default;
 }
@@ -125,7 +125,7 @@
 .wizard > .steps .done a:hover,
 .wizard > .steps .done a:active
 {
-    background: #9dc8e2;
+    background: #7DBC57;
     color: #fff;
 }
 
@@ -157,7 +157,7 @@
     display: inline;
     float: left;
     margin: 0 2.5% 0.5em 2.5%;
-    width: 65%;
+    width: 75%;
 }
 
 .wizard > .content > .body

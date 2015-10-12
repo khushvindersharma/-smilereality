@@ -4,20 +4,34 @@
         <link rel="stylesheet" href="css/wizardcss/main.css">
 		 <link rel="stylesheet" href="css/wizardcss/style2.css">
         <link rel="stylesheet" href="css/wizardcss/jquery.steps.css">
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+
         <script src="js/wizardlib/modernizr-2.6.2.min.js"></script>
         <script src="js/wizardlib/jquery-1.9.1.min.js"></script>
         <script src="js/wizardlib/jquery.cookie-1.3.1.js"></script>
         <script src="js/wizardlib/jquery.steps.js"></script>
-
-		
-
-
 </head>
 
 
 <body>
- 
-
+ <div class="container2">
+  <header class="headerbox">
+    <div class="logo"><img src="images/logo2.jpg"></div>
+    <div class="phoneno"><span class="text-deco2">04-Sep-2015 [11:03 AM IST]</span></div>
+    <div class="nav-box">
+      <div class="nav">
+        <ul>                                                  
+          <li><a href="#">Master</a></li>
+          <li><a href="#">Branch</a></li>
+          <li><a href="#">Schemes</a></li>
+          <li><a href="#">Membership</a> </li>
+          <li><a href="#">Report</a></li>
+          <li><a href="#">Status</a> </li>
+        </ul>
+        <div class="welcm2">Welcome Admin<span><a href="#">Logout</a></span></div>
+      </div>
+    </div>
+  </header>
         <div class="content">
 
 
@@ -246,5 +260,23 @@
                
             </div>
         </div>
+        </div>
+        
+        <footer class="footer">
+  <div class="footerin">
+    <div class="foot1">
+      <ul>
+        <li><a href="#">Credit Card</a></li>
+        <li><a href="#">Savings Account</a></li>
+        <li><a href="#">Life Insurance</a></li>
+        <li><a href="#">Salary Account</a></li>
+        <li><a href="#">Debit Card</a></li>
+        <li><a href="#">Current Account</a></li>
+        <li><a href="#">Demat Account</a></li>
+        <li><a href="#">Forex Card</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
     </body>
 </html>
