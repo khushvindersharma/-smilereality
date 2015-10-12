@@ -1,0 +1,85 @@
+{padding:0; margin:0;    }
+* {padding:0; margin:0;}
+h1, h2, h3, h4, h5, h6, p, span, label, input, select {padding:0; margin:0;}
+header, aside, section, nav, footer, article,  { display: block; }
+img { border: 0; }
+
+body{ margin:0; padding:0; font-family:Arial; overflow-x:hidden;}
+
+
+.container{ width:100%; height:auto; margin:auto;}
+.header-main{ width:100%; height:auto; float:left; background:#f4fdee; border-bottom:2px solid #79bb51;}
+.header{ width:1000px; height:auto; margin:auto;}
+.logo{ width:199px; height:88px; float:left; padding-top:17px; padding-bottom:24px;}
+.banner-slider{ width:100%; height:auto; float:left; background:url(../images/slider-btm-bg.png) repeat-x bottom;}
+
+.join-login-main{ width:100%; height:auto; float:left; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+7,dcdbdb+100,dcdbdb+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 7%, #dcdbdb 100%, #dcdbdb 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(7%,#ffffff), color-stop(100%,#dcdbdb), color-stop(100%,#dcdbdb)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 7%,#dcdbdb 100%,#dcdbdb 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 7%,#dcdbdb 100%,#dcdbdb 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 7%,#dcdbdb 100%,#dcdbdb 100%); /* IE10+ */
+background: linear-gradient(to bottom, #ffffff 7%,#dcdbdb 100%,#dcdbdb 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dcdbdb',GradientType=0 ); /* IE6-9 */}
+.jonin-in{ width:1000px; height:auto; margin:auto; padding-top:34px;}
+.mian-join{ width:534px; height:auto; float:left;  }
+.mian-join h2 {font-family: 'Comfortaa', cursive; color:#005293; font-size:32px; background:url(../images/icon-hand-shake.png) no-repeat right; line-height:50px; padding-right:67px; width:120px;}
+.mian-join h3 {font-family: 'Comfortaa', cursive; color:#005293; font-size:32px; background:url(../images/icon-help-desk.png) no-repeat right; line-height:50px; padding-right:67px; width:180px; margin-top:30px;}
+.mian-join p { font-family:Calibri; padding-right:40px;  font-size:15px; line-height:24px;}
+.login{ width:455px; height:305px; float:left; background:url(../images/seprator.png) no-repeat left;}
+
+
+.formbox{ width:380px; height:254px; float:left; border:1px solid #cccccc; margin-left:80px;}
+.formbox h2 {font-family:Arial; line-height:48px; background:#79bb51; font-size:16px; padding-left:20px; color:#fff; font-style:italic;}
+
+
+.formbox h1{font-family:'Open Sans Condensed', serif; font-size:20px; text-decoration:none; color:#fff; margin-left:20px; margin-top:20px;}
+
+.formbox form{ width:380px; height:auto;  margin-top:18px; margin:0 auto; margin-top:20px;}
+.formbox  p {
+	line-height: 49px;
+}
+.formbox  form label {
+	display: inline-block;  
+	width: 35px; height:39px; text-transform:uppercase;
+	font-size: 14px;
+	vertical-align: top; color:#fff; padding-left:0px;  
+}
+.formbox form input {
+	 border:1px solid #69aee9; border-radius:7px; 
+	height:34px; width: 300px; color:#ccc; padding-left:9px; font-size:12px; margin-left:30px;
+}
+.formbox  form textarea {
+	background-color:#2d3032;
+	background-repeat: repeat-x;
+	border: 0;
+	width: 210px; height:40px; margin-top:2px; padding-left:9px;
+	border:0;color:#636363;
+}
+.formbox form input[type="button"] {
+background:#b5da9f;
+	border: 0 none;
+	color:transparent;	 
+	width:380px ; height:45px;
+	float:left;  margin-top:25px;
+	cursor: pointer; color:#000; border-radius:0px; margin-left:0px; color:#333333; font-size:15px; font-weight:bold;
+}
+
+.formbox form span a{ color:#000; font-size:12px; float:right; margin-right:40px; margin-top:4px; text-decoration:none; }
+.formbox form span a:hover{ text-decoration:underline;}
+
+
+.footer{ width:100%; height:170px; background:url(../images/footer-bg.png) repeat-x; float:left;}
+.footerin{ width:1000px; height:auto; margin:auto;}
+.foot1{ width:1000px; height:40px; }
+.foot1 ul { padding:0; margin:0; margin-top:78px;}
+.foot1 ul li { list-style:none; float:left; }
+.foot1 ul li a{ color:#fff; font-size:12px; padding:0 15px; text-decoration:none; }
+.foot1 ul li a:hover{ text-decoration:underline;}
+.copyright{ width:1000px; height:auto; color:#fff; font-size:12px; line-height:22px; padding-left:15px;}
+
+
+
+
+
