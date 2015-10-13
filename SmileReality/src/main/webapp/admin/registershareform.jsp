@@ -1,22 +1,22 @@
 <html>
 <head>
  <link rel="stylesheet" href="css/wizardcss/normalize.css">
-        <link rel="stylesheet" href="css/wizardcss/main.css">
-		 <link rel="stylesheet" href="css/wizardcss/style2.css">
-        <link rel="stylesheet" href="css/wizardcss/jquery.steps.css">
-        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="../css/wizardcss/main.css">
+		 <link rel="stylesheet" href="../css/wizardcss/style2.css">
+        <link rel="stylesheet" href="../css/wizardcss/jquery.steps.css">
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
 
-        <script src="js/wizardlib/modernizr-2.6.2.min.js"></script>
-        <script src="js/wizardlib/jquery-1.9.1.min.js"></script>
-        <script src="js/wizardlib/jquery.cookie-1.3.1.js"></script>
-        <script src="js/wizardlib/jquery.steps.js"></script>
+        <script src="../js/wizardlib/modernizr-2.6.2.min.js"></script>
+        <script src="../js/wizardlib/jquery-1.9.1.min.js"></script>
+        <script src="../js/wizardlib/jquery.cookie-1.3.1.js"></script>
+        <script src="../js/wizardlib/jquery.steps.js"></script>
 </head>
 
 
 <body>
  <div class="container2">
   <header class="headerbox">
-    <div class="logo"><img src="images/logo2.jpg"></div>
+    <div class="logo"><img src="../images/logo2.jpg"></div>
     <div class="phoneno"><span class="text-deco2">04-Sep-2015 [11:03 AM IST]</span></div>
     <div class="nav-box">
       <div class="nav">

@@ -23,11 +23,11 @@
   font-size:9pt;
 		}
 		.personaldetails tr {
-		margin-bottom:10px
+		margin-bottom:10px;
 		}
 		.personaldetails tr td {
-		font-size:15px;
-		width:24%;
+		 font-size:15px;
+		 width:24%;
 		 font-family: "Trebuchet MS", Verdana, Halvetica, Arial;
 		}
 		.button{
@@ -46,72 +46,58 @@
   font-size: 15px;
   font-weight: bold;
   outline: none;
-		
+
 		}
 		.button:hover{
-		
-		
-		  background: #5CA630;
+		   background: #5CA630;
            color: #FFF;
- 
-		
-	
-		}
+ 		}
 		.buttonsdiv
 		{
 		margin-left:307px;
 		margin-top:30px;
-		
-		}
+				}
 		.invaliduser
-{
-	
+     {
 	  font-size: 12px;
-  color: #F00;
-  margin-left: 31px;
-	
-}
+      color: #F00;
+      margin-left: 31px;
+	}
 		.payment
 		{
 		width:80%;
-		
-		}
+				}
 		.payment tr td{
-		
 		padding:14px;
 		font-size:15px;
 		width:24%;
-		 font-family: "Trebuchet MS", Verdana, Halvetica, Arial;
+		font-family: "Trebuchet MS", Verdana, Halvetica, Arial;
+				}
 		
-		}
-		
-		.payment td input{
-		width:200px;
-		border-radius: 6px;
+.payment td input{
+  width:200px;
+  border-radius: 6px;
   padding: 4px;
   border:1px solid #6DB2E9 !important;
- 
-  font-size:15px;
+   font-size:15px;
 		}
+		
 		.account{
 		width:80%;
 		}
 		.account tr td{
-		
 		padding:10px;
 		font-size:15px;
 		width:24%;
-		 font-family: "Trebuchet MS", Verdana, Halvetica, Arial;
-		
-		}
+		font-family: "Trebuchet MS", Verdana, Halvetica, Arial;
+				}
 		
 		.account td input{
 		width:200px;
 		border-radius: 6px;
   padding: 4px;
   border:1px solid #6DB2E9 !important;
- 
-  font-size:9pt;
+   font-size:9pt;
 		}
 		.content{
 		margin-top:33px;

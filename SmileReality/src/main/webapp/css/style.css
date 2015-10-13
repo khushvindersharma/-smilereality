@@ -5,8 +5,50 @@ header, aside, section, nav, footer, article,  { display: block; }
 img { border: 0; }
 
 body{ margin:0; padding:0; font-family:Arial; overflow-x:hidden;}
+.forget{
+	
+	margin-top:20px !important;
+}
+.centre-box{
+	width: 380px;
+  height: auto;
+  float: left;
+  margin-left: 40%;
+  margin-top: 11%;
+  }
+.formboxcolor{background-color:#D6F9D6;}
+.color
+{
+	
+	color:#606060;
+}
+.fixeddeposit{
+	
+	border-collapse:collapse;
+	  width: 20%;
+  margin-left: 43px;
+}.recurringdeposit
+{
+		border-collapse:collapse;
 
+}
+.table-wraper
+{
+   
+  width: 770px;
+  height: 250px;
+  overflow: auto;
+  margin-left: 10px
+}
+.certificate img
+{
+	width: 700px;
+  height: 513px;
+  margin-left: 45px;
+	
+}
 
+  .formboxinput{margin-bottom:15px;}
 .container{ width:1180px; height:auto; margin:auto;}
 .headerbox{ width:1180px; height:auto; float:left; }
 .logo{ width:262px; height:auto; float:left; padding-top:19px;}
