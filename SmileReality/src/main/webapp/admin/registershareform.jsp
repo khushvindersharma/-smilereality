@@ -5,7 +5,7 @@
 		 <link rel="stylesheet" href="../css/wizardcss/style2.css">
         <link rel="stylesheet" href="../css/wizardcss/jquery.steps.css">
         <link rel="stylesheet" href="../css/style.css" type="text/css" />
-
+        <link rel="stylesheet" href="../css/responsive.css" type="text/css" />
         <script src="../js/wizardlib/modernizr-2.6.2.min.js"></script>
         <script src="../js/wizardlib/jquery-1.9.1.min.js"></script>
         <script src="../js/wizardlib/jquery.cookie-1.3.1.js"></script>
@@ -262,8 +262,8 @@
         </div>
         </div>
         
-        <footer class="footer">
-  <div class="footerin">
+        <footer class="footer" style="position:relative!important">
+  <div class="footerin" style="position:relative!important">
     <div class="foot1">
       <ul>
         <li><a href="#">Credit Card</a></li>

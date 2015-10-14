@@ -9,6 +9,13 @@ body{ margin:0; padding:0; font-family:Arial; overflow-x:hidden;}
 	
 	margin-top:20px !important;
 }
+.loginbody
+{
+	
+	background-color:#B3FAB3; 
+	/*background-color:#007f00;*/
+/*background-image:url(../images/greenback.jpg);*/
+}
 .centre-box{
 	width: 380px;
   height: auto;
@@ -25,12 +32,57 @@ body{ margin:0; padding:0; font-family:Arial; overflow-x:hidden;}
 .fixeddeposit{
 	
 	border-collapse:collapse;
-	  width: 20%;
-  margin-left: 43px;
-}.recurringdeposit
+	
+  margin-left: 13px;
+  margin-top: 5px;
+  margin-right: 10px;}
+  .recurringdeposit
 {
 		border-collapse:collapse;
 
+}
+.reccuring p
+{
+	
+	word-spacing:0.3em !important;
+	
+}
+.deposit p
+{
+	
+	word-spacing:0.3em !important;
+
+	
+}
+.home p
+{
+	margin-top:10px;
+		word-spacing:0.3em !important;
+	  
+	
+}
+.reccuring   h1
+{
+	word-spacing:0.1em !important;
+	
+}
+.reccuring   h1
+{
+	word-spacing:0.1em !important;
+	
+}
+.contactus   h1
+{
+	word-spacing:0.1em !important;
+	
+}
+.contactus p
+{
+	
+word-spacing:0.3em !important;
+  line-height: 250% !important;
+  margin-left:25px;	
+  margin-top:45px;
 }
 .table-wraper
 {
@@ -38,16 +90,20 @@ body{ margin:0; padding:0; font-family:Arial; overflow-x:hidden;}
   width: 770px;
   height: 250px;
   overflow: auto;
-  margin-left: 10px
+  margin-left: 10px;
+  margin-top:15px;
 }
 .certificate img
 {
 	width: 700px;
-  height: 513px;
+  
   margin-left: 45px;
 	
 }
-
+.fixeddeposit tr td p{ 
+ font-size: 9pt;
+}
+.recurringdeposit tr td p{font-size: 9pt;}
   .formboxinput{margin-bottom:15px;}
 .container{ width:1180px; height:auto; margin:auto;}
 .headerbox{ width:1180px; height:auto; float:left; }
@@ -79,7 +135,7 @@ body{ margin:0; padding:0; font-family:Arial; overflow-x:hidden;}
 
 
 .welcome-loginmain{ width:1180px; height:auto; float:left;}
-.left-box{ width:779px; height:auto; float:left;}
+.left-box{ width:779px; height:600px; float:left;}
 .welcm{ width:779px; height:448px; float:left; background:#f6f6f6;}
 .welcm h1 { line-height:60px; background:#efefef; font-size:22px; font-family:Arial; padding-left:10px; color:#606060;}
 .welcm p{ font-family:Arial; font-size:14px; line-height:22px; text-align:justify; padding:0 10px;}
@@ -92,15 +148,15 @@ body{ margin:0; padding:0; font-family:Arial; overflow-x:hidden;}
  .welcm2 span a { line-height:53px; color:#fff; font-size:10px; text-decoration:none; margin-left:20px;}
  .welcm2 span a:hover{ text-decoration:underline;}
 
-.footer{ width:100%; height:100px; background:url(../images/footer-bg.png) repeat-x; float:left; margin-top:20px;}
-.footerin{ width:1180px; height:auto; margin:auto;}
+.footer{ width:100%; height:100px; background:url(../images/footer-bg.png) repeat-x; float:left; margin-top:20px;position:fixed;bottom:0px; }
+.footerin{ width:1180px; height:auto; margin:auto;position:fixed;bottom:0px;}
 .foot1{ width:1180px; height:40px; }
 .foot1 ul { padding:0; margin-left:220px; margin-top:30px;}
 .foot1 ul li { list-style:none; float:left; }
 .foot1 ul li a{ color:#fff; font-size:12px; padding:0 10px; text-decoration:none; }
 .foot1 ul li a:hover{ text-decoration:underline;}
 
-.formbox{ width:380px; height:254px; float:left; border:1px solid #cccccc;}
+.formbox{ width:380px; height:254px; float:left;   /*border: 1px solid #B3FAB3;*/}
 .formbox h2 {font-family:Arial; line-height:48px; background:#79bb51; font-size:16px; padding-left:20px; color:#fff; font-style:italic;}
 
 

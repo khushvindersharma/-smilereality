@@ -1,7 +1,9 @@
 <html>
 <head>
      <link rel="stylesheet" href="../css/style.css" type="text/css" />
+      <link rel="stylesheet" href="../css/responsive.css" type="text/css" />
      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    
 <script>
 function loginform()
 {
@@ -21,9 +23,11 @@ else
 	}
 
 }
+ 
+
 </script>
 </head>
-<body>
+<body class="loginbody">
     <section class="centre-box">
   <div class="formbox formboxcolor">
         <h2>Login</h2>
@@ -32,17 +36,16 @@ else
             <input type="text" placeholder="Login" id="login" >
           </p>
           <p>
-            <input type="text" placeholder="Password"  id="pswd" >
+            <input type="text" placeholder="Password" name="pswd"  id="pswd" >
           </p>
             <span  style="display:none; font-size: 12px;color: #F00;margin-left: 31px;" class="invaliduser">Invalid User</span>
           <span><a class="forget" href="#">Forgot Password?</a></span>
           <p>
-            <input type="button"   value="Login" onclick="loginform()">
+            <input type="button" id="loginbtn"   value="Login" onclick="loginform()">
           </p>
         </form>
       </div>
      
     </section>
-
 </body>
 </html>

@@ -9,14 +9,13 @@
 
 <script>
 
-	
-
-function depositscheme()
+function fixedscheme()
 {
 	$(".home").hide();
 	$(".deposit").show();
 	$(".reccuring").hide();
 	$(".certificate").hide();
+	$(".contactus").hide();
 }
 	function recurringscheme()
 	{
@@ -25,6 +24,7 @@ function depositscheme()
 		$(".deposit").hide();
 		$(".reccuring").show();
 		$(".certificate").hide();
+		$(".contactus").hide();
 	}
 	function companycertificate()
 	{
@@ -32,7 +32,24 @@ function depositscheme()
 		$(".deposit").hide();
 		$(".reccuring").hide();
 		$(".certificate").show();
+		$(".contactus").hide();
+	}
+	function contactdetails()
+	{
+		$(".contactus").show();
+		$(".home").hide();
+		$(".deposit").hide();
+		$(".reccuring").hide();
+		$(".certificate").hide();
+	}
+	function home()
+	{
 		
+		$(".home").show();
+		$(".contactus").hide();
+		$(".deposit").hide();
+		$(".reccuring").hide();
+		$(".certificate").hide();
 	}
 </script>
 
@@ -50,12 +67,12 @@ function depositscheme()
     <div class="nav-box">
       <div class="nav">
         <ul>
-          <li><a href="#">home</a></li>
-          <li><a href="#">about us</a></li>
+          <li><a onclick="home()" href="#">home</a></li>
+         
           <li><a onclick="companycertificate()" href="#">company</a></li>
-          <li><a href="#">policy</a> </li>
+
           <li><a href="#">plan</a></li>
-          <li><a href="#">Contact us</a> </li>
+          <li><a href="#" onclick="contactdetails()">Contact us</a> </li>
         </ul>
         <div class="regi"><img src="images/icon-register.png"><span>Register Now</span></div>
       </div>
@@ -65,9 +82,8 @@ function depositscheme()
   <aside class="banner-main">
     <nav class="leftnav">
       <ul>
-        <li><a href="#"><span><img src="images/icon-home.png"></span>Home Loans and Other Loans</a></li>
-        <li><a href="#"><span><img src="images/icon-personal-loan.png"></span>Personal Loan</a></li>
-        <li><a href="#" onclick="depositscheme()"><span><img src="images/icon-deposite.png"></span>Deposit Schemes</a></li>
+       
+        <li><a href="#" onclick="fixedscheme()"><span><img src="images/icon-deposite.png"></span>Fixed Schemes</a></li>
         <li><a href="#" onclick="recurringscheme()" ><span><img src="images/icon-personal-loan.png"></span>Rucurring Schemes</a></li>
         <li><a href="#"><span><img src="images/icon-saving.png"></span>Saving Account</a></li>
       </ul>
@@ -77,8 +93,8 @@ function depositscheme()
         <div class="flexslider">
           <ul class="slides">
             <li> <img src="images/slide1.png"/> </li>
-            <li> <img src="images/slide1.png"/> </li>
-            <li> <img src="images/slide1.png"/> </li>
+            <li> <img src="images/slide2.png"/> </li>
+            <li> <img src="images/slide3.png"/> </li>
           </ul>
         </div>
         
@@ -117,12 +133,15 @@ function depositscheme()
        <h1>Smile Reality Certificate</h1>
         <img src="images/certificate.jpg" />
       </div>
-      
-      
+       <div class="welcm contactus" style="display:none">
+       <h1>Contact Us</h1>
+    <p> Head Office- 2nd Floor, Opp Aroma Hetel , Dabwali Road, Sirsa- 125055  <br/>
+      Phone No- 082219-84669 </p>
+      </div>
       
        <div class="welcm deposit" style="display:none">
         <h1>Fixed Deposit</h1>
-        <p>
+        <p style="margin-top:10px">
       Fixed deposit (FD) is a financial instrument where a sum of money given to a bank, financial institution or company whereby the receiving entity pays interest at a specified percentage for the time duration of the deposit. The rate of interest paid for fixed deposit vary according to amount, period and from bank to bank. At the end of the time period of the deposit the amount that is originally given is returned to the investor.
          <br/>
          Duration of Fixed Deposit
@@ -602,7 +621,7 @@ Plan for FD in Smile Reality Producer company
       </div>
         <div class="welcm reccuring" style="display:none">
         <h1>Recurring Deposit </h1>
-        <p>
+        <p style="margin-top:10px">
       <b> Recurring Deposit </b> is a special kind of Term Deposit offered by banks in India which help people with regular incomes to deposit a fixed amount every month into their<b> Recurring Deposit</b> account and earn interest at the rate applicable to Fixed Deposits.
          <br/>
       <div class="table-wraper">
